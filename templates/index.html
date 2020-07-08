@@ -1,9 +1,24 @@
 <html>
     <head>
-        <title>Home Page</title>
+        <title>Sentimental Analysis</title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/index.css') }}">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     </head>
     <body>
-    <h1>Main Application Page</h1>
-    <p>{{content}}</p>
-    </body>
+    <div class="help">
+        <div class="card text-white bg-dark w-75" style="width: 20rem;">
+        <div class="card-body" >
+        <form>
+        <div class="form-group">
+            <label for="exampleInputEmail1">Enter sentence here</label>
+            <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <small id="emailHelp" class="form-text text-white">Enter sentence for sentimental analysis.</small>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+            <p class="card-text"> Hope it helps</p>
+        </div>
+        </div>
+    </div>
+</body>
 </html>
