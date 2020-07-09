@@ -2,8 +2,8 @@ body {
     background-color: grey;
   }
 .help{
+    padding-top: 50%;
     margin: auto;
     width: 50%;
-    border: 3px solid green;
     padding: 10px;
 }
